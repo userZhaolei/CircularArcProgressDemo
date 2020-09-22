@@ -8,8 +8,10 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
-    
-    dependencies {
-            implementation 'com.github.userZhaolei:CircularArcProgressDemo:Tag'
-	}
 ```
+
+
+```javascript
+ dependencies { implementation 'com.github.userZhaolei:CircularArcProgressDemo:Tag'}
+```
+
