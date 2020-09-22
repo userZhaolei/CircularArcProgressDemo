@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
+    <com.zl.circulararcprogress.CircularArcProgressView
+        android:id="@+id/progress_circular"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+    </com.zl.circulararcprogress.CircularArcProgressView>
+
+    <com.zl.circulararcprogress.CircularArcProgressView
+        android:id="@+id/progress_circular2"
+        android:layout_width="300dp"
+        app:behindColor="#FF7744"
+        app:frontColor="#FFA488"
+        app:textColor="#000"
+        android:layout_height="wrap_content">
+    </com.zl.circulararcprogress.CircularArcProgressView>
+
+
+    <com.zl.circulararcprogress.CircularArcProgressView
+        android:id="@+id/progress_circular3"
+        android:layout_width="300dp"
+        app:behindColor="#FF44AA"
+        app:frontColor="#FFB7DD"
+        app:textColor="#000"
+        android:layout_height="wrap_content">
+    </com.zl.circulararcprogress.CircularArcProgressView>
+
+    <com.zl.circulararcprogress.CircularArcProgressView
+        android:id="@+id/progress_circular4"
+        android:layout_width="300dp"
+        app:behindColor="#008800"
+        app:frontColor="#AA0000"
+        app:textColor="#000"
+        android:layout_height="wrap_content">
+    </com.zl.circulararcprogress.CircularArcProgressView>
+
+    <Button
+        android:id="@+id/btn"
+        android:text="start"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content"></Button>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+

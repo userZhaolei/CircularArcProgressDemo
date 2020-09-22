@@ -104,7 +104,7 @@ public class CircularArcProgressView extends View {
         float current = (stopX - starX) / 100f * progress + starX;
         canvas.drawLine(starX, starY, current, stopY, behindPaint);
 
-        canvas.drawText(progress + "%", current - starX - textSize, starY + 10, textPaint);
+        canvas.drawText(progress + "%", current  - textSize-5, starY + 10, textPaint);
 
   /*    paint.setStrokeWidth(40);
         paint.setColor(Color.RED);
