@@ -48,7 +48,7 @@ allprojects {
 ```
 
 ```
- dependencies {  implementation 'com.github.userZhaolei:CircularArcProgressDemo:v1.0.0'}
+ dependencies {  implementation 'com.github.userZhaolei:CircularArcProgressDemo:v1.0.2'}
 ```
 ### 效果：
 ![preview](https://github.com/userZhaolei/CircularArcProgressDemo/blob/master/image/image3.jpg)
