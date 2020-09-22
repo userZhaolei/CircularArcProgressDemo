@@ -17,6 +17,25 @@
         progress_circular.setTextColor(Color.BLACK); //设置文字颜色
         progress_circular.setProgress(100);//设置进度
 ```
+```java
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wuyr.pathlayoutmanagertest.CircularArcProgressView
+        android:id="@+id/progress_circular"
+        android:layout_width="300dp"
+        app:frontColor="@color/colorPrimaryDark"
+        app:textColor="#fff"
+        android:layout_height="wrap_content">
+    </com.wuyr.pathlayoutmanagertest.CircularArcProgressView>
+
+</RelativeLayout>
+
+
+```
 
 #### 添加依赖：
 ```
