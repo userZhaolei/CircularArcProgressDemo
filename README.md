@@ -24,13 +24,13 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.wuyr.pathlayoutmanagertest.CircularArcProgressView
+    <com.zl.circulararcprogress.CircularArcProgressView
         android:id="@+id/progress_circular"
         android:layout_width="300dp"
         app:frontColor="@color/colorPrimaryDark"
         app:textColor="#fff"
         android:layout_height="wrap_content">
-    </com.wuyr.pathlayoutmanagertest.CircularArcProgressView>
+    </com.zl.circulararcprogress.CircularArcProgressView>
 
 </RelativeLayout>
 
